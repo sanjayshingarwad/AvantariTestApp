@@ -25,7 +25,7 @@ extension PointEntry: Comparable {
 class LineChart: UIView {
     
     /// gap between each point
-    let lineGap: CGFloat = 40.0
+    let lineGap: CGFloat = 30.0
     
     /// preseved space at top of the chart
     let topSpace: CGFloat = 40.0
@@ -291,5 +291,6 @@ class LineChart: UIView {
         gridLayer.sublayers?.forEach({$0.removeFromSuperlayer()})
     }
 }
+
 
 
